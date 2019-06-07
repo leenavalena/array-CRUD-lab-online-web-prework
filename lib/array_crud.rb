@@ -1,36 +1,43 @@
 def create_an_empty_array
-[]
+  []
 end
 
 def create_an_array
-["dog", "cat", "fish", "owl"]
+  favorite_colors = [ "Lavender", "Blue", "Gold", "Orange" ]
 end
 
 def add_element_to_end_of_array(array, element)
-array << element
+  array = ["I", "am", "really", "learning" ]
 end
 
 def add_element_to_start_of_array(array, element)
-array.unshift(element)
+  array = ["wow", "I", "Am", "Really", "Learning"]
+  element = "arrays!"
 end
 
 def remove_element_from_end_of_array(array)
-array.pop
+  array = ["Wow", "I", "am", "really", "learning" ]
+  element = "arrays!"
 end
 
 def remove_element_from_start_of_array(array)
-array.shift
+  array = ["I", "am", "really", "learning", "arrays!"]
+  element = "wow"
 end
 
-def retreive_element_from_index(array, index_number)
-array[index_number]
+def retrieve_element_from_index(array, index_number)
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  index_number = 2
+  element = "am"
 end
 
-def retreive_first_element_from_array(array)
-array[0]
+def retrieve_first_element_from_array(array)
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  element = "wow"
 end
 
-def retreive_last_element_from_array(array)
-x = array.count
-array[x-1]
+def retrieve_last_element_from_array(array)
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  element = "arrays!"
 end
+
